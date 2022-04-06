@@ -6,7 +6,7 @@
 <a href="#"><img title="CYBERXKID" src="https://img.shields.io/badge/CYBERXKID?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://chat.whatsapp.afnandQTRQ3Z0UcArqhD3IB"><img title="join support" src="https://img.shields.io/badge/join_support-CYBERXKID/pinkymwol?color=black&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://chat.whatsapp.afnandQTRQ3Z0UcArqhD3IB"><img title="join support" src="https://img.shields.io/badge/join_support-CYBERXKID?color=black&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -21,7 +21,7 @@ Project created by <a href="https://github.com/CYBERXKID">CYBERXKID</a> to make 
 
   <p align="center">
   <a href="https://github.com/CYBERXKID/Alexa_V3 ">
-    <img src="https://img.shields.io/github/repo-size/afnanplk/lastpink?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/CYBERXKID/lastpink?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/CYBERXKID/followers"><img title="Followers" src="https://img.shields.io/github/followers/CYBERXKID?color=red&style=flat-circle"></a>
 <a href="https://github.com/CYBERXKID/lastpink/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/CYBERXKID/lastpink?color=red&style=flat-square"></a>
