@@ -1,5 +1,4 @@
-## Thanks for Everything 
-### We will always remember you..
+## 👄WELCOME TO ALEXA BOT👄
 
 <div align="center">
   <img border-radius: 15px src="https://te.legra.ph/file/329e523efb55c64ad6994.jpg" width="200" height="200"/>
