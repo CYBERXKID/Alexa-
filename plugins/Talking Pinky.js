@@ -1,12 +1,12 @@
 /* Codded by Phaticusthiccy
 eva artificial intelligence was codded by Phaticusthiccy
 also 90% of thise code is done by Phaticusthiccy
-re-coded or modified by afnanplk
+re-coded or modified by CYBERXKID
 to bring new ai
 */
 
 
-const MyPnky = require('../events');
+const MyAlxa = require('../events');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const https = require('https');
@@ -15,7 +15,7 @@ const { MessageType, Mimetype, MessageOptions } = require('@adiwajshing/baileys'
 const Language = require('../language');
 const Lang = Language.getString('voicy');
 const afn = require('./sql/ai');
-const { AfnanPLK, addplk } = require("./sql/tryplk");
+const { Cyberxkod, addplk } = require("./sql/tryplk");
 const conf = require('../config');
 const axios = require('axios')
 const axiosdef = require("axios").default;
