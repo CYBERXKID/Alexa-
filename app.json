@@ -1,15 +1,15 @@
 {
-    "name": "PINKY BY AFNAN PLK",
-    "description": "pinky bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "ALEXA QUEEN_V3",
+    "description": "alexa bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.imgur.com/zdcqaaG.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/afnanplk/Pinky_V2",
+    "repository": "https://github.com/CYBERXKID/PAlexa_V3",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "PINKY_SESSION": {
-            "description": " Type here yours pinky Session.",
+        "ALEXA_SESSION": {
+            "description": " Type here yours alexa Session.",
             "required": true
         },
         "SUDO": {
@@ -51,7 +51,7 @@
             "required": true,
             "value": "true"
         },  
-         "PINKY_PM": {
+         "ALEXA_PM": {
             "description": "true => activate talking pinky in pm",
             "required": true,
             "value": "true"
@@ -93,7 +93,7 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━╼⤏PINKY BOT⤎╾━━━•"
+            "value": "•━━━╼⤏ALEXA QUEEN BOT⤎╾━━━•"
         },      
         "HEROKU_API_KEY": {
             "description": " Heroku API Key.",
@@ -125,7 +125,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "pinky  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
+            "description": "alexa  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
             "required": true,
             "value": "private"
         },
@@ -149,7 +149,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! use {pp} if you want to add profile picture also add {qt} if you want to add qoutes in your welcome message",
             "required": false,
-            "value": "i am alive  \n\n ```coded by afnan pallikkel```\n\n```{qt}```"
+            "value": "i am alive  \n\n ```coded by cyber kidd```\n\n```{qt}```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
