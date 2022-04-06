@@ -2,8 +2,8 @@
 
 <div align="center">
   <img border-radius: 15px src="https://te.legra.ph/file/329e523efb55c64ad6994.jpg" width="200" height="200"/>
-  <p align="center">
-<a href="#"><img title="CYBERXKID" src="https://img.shields.io/badge/CYBERXKID?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+    <p align="center">
+<a href="#"><img title="Alexa_V2" src="https://img.shields.io/badge/Alexa_V2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://chat.whatsapp.com/Gv3CdQTRQ3Z0UcArqhD3IB"><img title="join support" src="https://img.shields.io/badge/join_support-CYBERXKID?color=black&style=for-the-badge&logo=whatsapp"></a>
