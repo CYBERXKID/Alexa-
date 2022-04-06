@@ -1,6 +1,6 @@
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
-const MyPnky = require('../events');
+const MyAlxa = require('../events');
 const Config = require('../config');
 
 const Language = require('../language');
@@ -17,7 +17,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
-MyPnky.addCommand({pattern: 'ban ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
+MyAlxa.addCommand({pattern: 'ban ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
   if (message.jid.endsWith('@g.us')) {  
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -57,7 +57,7 @@ MyPnky.addCommand({pattern: 'ban ?(.*)', fromMe: true, dontAddCommandList: true,
   }
 }));
 
-MyPnky.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.ADD_DESC}, (async (message, match) => {  
+MyAlxa.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.ADD_DESC}, (async (message, match) => {  
   if (message.jid.endsWith('@g.us')) {  
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -100,7 +100,7 @@ MyPnky.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, dontAddCommandList: 
   }
 }));
     
-     MyPnky.addCommand({pattern: 'no fake ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
+     MyAlxa.addCommand({pattern: 'no fake ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
   if (message.jid.endsWith('@g.us')) {  
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -140,7 +140,7 @@ MyPnky.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, dontAddCommandList: 
   }
 }));
 
-MyPnky.addCommand({pattern: 'promote ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
+MyAlxa.addCommand({pattern: 'promote ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
   if (message.jid.endsWith('@g.us')) {  
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -200,7 +200,7 @@ MyPnky.addCommand({pattern: 'promote ?(.*)', fromMe: true, dontAddCommandList: t
   }
 }));
 
-MyPnky.addCommand({pattern: 'demote ?(.*)', fromMe: true, desc: Lang.DEMOTE_DESC, dontAddCommandList: true}, (async (message, match) => {    
+MyAlxa.addCommand({pattern: 'demote ?(.*)', fromMe: true, desc: Lang.DEMOTE_DESC, dontAddCommandList: true}, (async (message, match) => {    
     if (message.jid.endsWith('@g.us')) {
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN);
@@ -232,7 +232,7 @@ MyPnky.addCommand({pattern: 'demote ?(.*)', fromMe: true, desc: Lang.DEMOTE_DESC
     }
 }));
 
-MyPnky.addCommand({pattern: 'mute ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.MUTE_DESC}, (async (message, match) => {    
+MyAlxa.addCommand({pattern: 'mute ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.MUTE_DESC}, (async (message, match) => {    
     if (message.jid.endsWith('@g.us')) {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -1591,7 +1591,7 @@ MyPnky.addCommand({pattern: 'mute ?(.*)', fromMe: true, dontAddCommandList: true
     }
 }));
 
-MyPnky.addCommand({pattern: 'unmute ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.UNMUTE_DESC}, (async (message, match) => {    
+MyAlxa.addCommand({pattern: 'unmute ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.UNMUTE_DESC}, (async (message, match) => {    
   if (message.jid.endsWith('@g.us')) { 
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
@@ -1607,7 +1607,7 @@ MyPnky.addCommand({pattern: 'unmute ?(.*)', fromMe: true, dontAddCommandList: tr
   }
 }));
 
-MyPnky.addCommand({pattern: 'invite ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
+MyAlxa.addCommand({pattern: 'invite ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
    if (message.jid.endsWith('@g.us')) {
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN, MessageType.text);
@@ -1616,7 +1616,7 @@ MyPnky.addCommand({pattern: 'invite ?(.*)', fromMe: true, dontAddCommandList: tr
    }
    }));
 
-MyPnky.addCommand({pattern: 'rename ?(.*)', fromMe: true,desc: 'change group name'}, (async (message, match) => {
+MyAlxa.addCommand({pattern: 'rename ?(.*)', fromMe: true,desc: 'change group name'}, (async (message, match) => {
   if (message.jid.endsWith('@g.us')) { 
   var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,'i am not admin',MessageType.text);
